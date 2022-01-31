@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.textatrea {
+    /* width: 100%; */
+    margin: 20px;    
+    border-radius: 5px;
+    padding: 10px;
+    font-family: sans-serif;
+    outline: 1px solid #3085d4;
+    border: none;
+}
+
+.operations {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.operations button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background: #3085d4;
+    border-radius: 5px;
+    color: #FFFF;
+}
+ 
