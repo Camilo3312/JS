@@ -4,7 +4,7 @@ const useState = () => {
         state = props
         counter.textContent = state
         if(state > 0) {
-            image.style.filter = `grayscale(${state})`
+            image.style.filter = `blur(${state}px)`
         }
         else {
             image.style.filter = "none"
